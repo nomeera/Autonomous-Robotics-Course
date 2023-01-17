@@ -1,6 +1,12 @@
 # Autonomous Robotics Course
 ## Instructor: [Khaled Gabr](https://github.com/khaledgabr77) | Robotics Corner Academy
 
+[![Course Level](https://img.shields.io/badge/Level-Beginner-green.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
+[![ROS](https://img.shields.io/badge/skills-ROS-green.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
+[![Robotics](https://img.shields.io/badge/skills-Robotics-green.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
+[![Language](https://img.shields.io/badge/Language-Python-blue.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
+[![Language](https://img.shields.io/badge/Language-C++-blue.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
+
 ### Course Content
 - Introduction to Linux, Terminal, and Shell
 - Python Programming
@@ -38,8 +44,3 @@
 - SLAM
 - Navigation
 
-[![Course Level](https://img.shields.io/badge/Level-Beginner-green.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
-[![ROS](https://img.shields.io/badge/skills-ROS-green.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
-[![Robotics](https://img.shields.io/badge/skills-Robotics-green.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
-[![Language](https://img.shields.io/badge/Language-Python-blue.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
-[![Language](https://img.shields.io/badge/Language-C++-blue.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
