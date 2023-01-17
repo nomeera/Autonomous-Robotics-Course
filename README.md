@@ -3,6 +3,8 @@
 
 ### Course Content
 - Introduction to Linux, Terminal, and Shell
+- Python Programming
+- C++ Programming
 - Introduction to ROS and ROS installation
 - ROS Core Concepts:
   - Master
@@ -36,23 +38,15 @@
 - SLAM
 - Navigation
 
-## Skills Covered
-- Linux
-- ROS
-- Robotics
-- Gazebo
-- URDF
-- Kinematics
-- Turtlebot3
-- Localization
-- SLAM
-- Navigation
-
 ## Course Level
 - Beginner
 
 ## Language
 - Python
+- C++
 
 [![Course Level](https://img.shields.io/badge/Level-Beginner-green.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
 [![Language](https://img.shields.io/badge/Language-Python-blue.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
+[![Language](https://img.shields.io/badge/Language-C++-blue.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
+[![ROS](https://img.shields.io/badge/ROS-used-green.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
+[![Robotics](https://img.shields.io/badge/Robotics-used-green.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
