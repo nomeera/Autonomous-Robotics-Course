@@ -38,15 +38,8 @@
 - SLAM
 - Navigation
 
-## Course Level
-- Beginner
-
-## Language
-- Python
-- C++
-
 [![Course Level](https://img.shields.io/badge/Level-Beginner-green.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
-[![Language](https://img.shields.io/badge/Language-Python-blue.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
-[![Language](https://img.shields.io/badge/Language-C++-blue.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
 [![ROS](https://img.shields.io/badge/ROS-skills-green.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
 [![Robotics](https://img.shields.io/badge/Robotics-skills-green.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
+[![Language](https://img.shields.io/badge/Language-Python-blue.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
+[![Language](https://img.shields.io/badge/Language-C++-blue.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
