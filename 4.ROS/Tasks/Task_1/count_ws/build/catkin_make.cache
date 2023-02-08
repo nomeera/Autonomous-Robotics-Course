@@ -1,0 +1,2 @@
+SubCount_pkg:pubCount_pkg
+-DCATKIN_DEVEL_PREFIX=/home/nomeer/NoMeEr/Robotics/Courses/Robotics Corner/ROS/Tasks/count_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nomeer/NoMeEr/Robotics/Courses/Robotics Corner/ROS/Tasks/count_ws/install -G Unix Makefiles

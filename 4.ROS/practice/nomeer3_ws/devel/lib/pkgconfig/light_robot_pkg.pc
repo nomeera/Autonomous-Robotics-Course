@@ -1,0 +1,8 @@
+prefix=/home/nomeer/NoMeEr/Robotics/Courses/Robotics Corner/ROS/practice/nomeer3_ws/devel
+
+Name: light_robot_pkg
+Description: Description of light_robot_pkg
+Version: 0.0.0
+Cflags: -I/home/nomeer/NoMeEr/Robotics/Courses/Robotics Corner/ROS/practice/nomeer3_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime

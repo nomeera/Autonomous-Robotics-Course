@@ -1,0 +1,6 @@
+<launch>
+  <node name="pub_twist_cpp" pkg="move_pkg" type="pub_twistC" output="screen" />
+  <node name="pub_age_node_cpp" pkg="move_pkg" type="pub_ageC" />
+  <node name="sub_age_node_cpp" pkg="move_pkg" type="sub_ageC" output="screen" />
+  <node name="sub_odom_cpp" pkg="move_pkg" type="sub_odomC" />
+</launch>

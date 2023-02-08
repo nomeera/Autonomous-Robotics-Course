@@ -1,0 +1,2 @@
+set(n_of_words_pkg_MESSAGE_FILES "")
+set(n_of_words_pkg_SERVICE_FILES "/home/nomeer/NoMeEr/Robotics/Courses/Robotics Corner/ROS/Tasks/Task_4/nomeer_ws/src/n_words_pkg/srv/count_words.srv")

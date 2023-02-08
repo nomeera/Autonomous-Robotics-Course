@@ -1,0 +1,8 @@
+prefix=/home/nomeer/NoMeEr/Robotics/Courses/Robotics Corner/ROS/practice/nomeer4_ws/install
+
+Name: adding_pkg
+Description: Description of adding_pkg
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime roscpp rospy std_msgs

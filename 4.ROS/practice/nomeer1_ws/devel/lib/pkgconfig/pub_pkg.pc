@@ -1,0 +1,8 @@
+prefix=/home/nomeer/NoMeEr/Robotics/Courses/Robotics Corner/ROS/practice/nomeer1_ws/devel
+
+Name: pub_pkg
+Description: Description of pub_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

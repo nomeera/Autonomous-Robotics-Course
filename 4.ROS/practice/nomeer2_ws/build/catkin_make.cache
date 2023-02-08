@@ -1,0 +1,2 @@
+move_turtle
+-DCATKIN_DEVEL_PREFIX=/home/nomeer/NoMeEr/Robotics/Courses/Robotics Corner/ROS/practice/nomeer2_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nomeer/NoMeEr/Robotics/Courses/Robotics Corner/ROS/practice/nomeer2_ws/install -G Unix Makefiles
