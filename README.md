@@ -8,7 +8,7 @@
 [![Language](https://img.shields.io/badge/Language-C++-blue.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
 
 <details>
-  <summary>Click to show course content</summary>
+  <summary>click to show course content</summary>
   
     ### Course Content
     - Introduction to Linux, Terminal, and Shell
@@ -47,5 +47,24 @@
     - SLAM
     - Navigation
 </details>
+
+## ROS Tasks
+### Task1
+* [count_ws](4.ROS/Tasks/Task_1/count_ws)
+  * write, publisher and subscriber to start count from 100 until the user uses CTRL C, (.py,     .cpp).
+* [nomeer_ws](4.ROS/Tasks/Task_1/nomeer_ws)
+  * write, publisher and subscriber using String msg("I am Learning Robotics and ROS") until the user uses CTRL C, (.py, .cpp).
+  
+  
+---
+### Task2
+
+---
+### Task3
+
+---
+### Task4
+
+---
 
 
