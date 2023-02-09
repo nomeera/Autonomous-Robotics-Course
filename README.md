@@ -8,8 +8,7 @@
 [![Language](https://img.shields.io/badge/Language-C++-blue.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
 
 <details>
-  <summary>click to show course content</summary>
-  
+  <summary><span style="color:red">click to show course content</span></summary>
     ### Course Content
     - Introduction to Linux, Terminal, and Shell
     - Python Programming
