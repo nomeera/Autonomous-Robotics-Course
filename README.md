@@ -71,9 +71,21 @@
 
 ---
 ### Task3
+* [control_nomeer_roboot_ws](4.ROS/Tasks/Task_3/control_nomeer_roboot_ws)
+  * Users can input a linear (x) velocity in the range [2,6] (floating point allowed)
+  * Users can input an angular (z) velocity [1,3] (floating point allowed)
+  * another node to publish data to the /cmd_vel topic
+  
+  ![](4.ROS/Tasks/Task_3/control_nomeer_roboot_ws/rosgraph.png)
 
 ---
 ### Task4
+* [nomeer_ws](4.ROS/Tasks/Task_4/nomeer_ws)
+  * publisher and subscriber to count from 0 until the user uses CTRL C.
+  * message nodes that publish Complex(real, imaginary) numbers.
+  * a service that can count the number of words, ex: i love you >> 3, you are the best >> 4.
+  
+  
 
 ---
 
