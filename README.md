@@ -8,7 +8,7 @@
 [![Language](https://img.shields.io/badge/Language-C++-blue.svg)](https://github.com/khaledgabr77/Autonomous-Robotics-Course)
 
 <details>
-  <summary><span style="color:red">click to show course content</span></summary>
+  <summary>click to show course content</summary>
     ### Course Content
     - Introduction to Linux, Terminal, and Shell
     - Python Programming
@@ -47,6 +47,7 @@
     - Navigation
 </details>
 
+<img src="https://cdn-icons-png.flaticon.com/512/2814/2814666.png" width="30">
 ## ROS Tasks
 > Note: All codes written in C++ and Python
 
