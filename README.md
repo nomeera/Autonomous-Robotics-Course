@@ -49,17 +49,25 @@
 </details>
 
 ## ROS Tasks
+> Note: All codes written in C++ and Python
+
 ### Task1
 * [count_ws](4.ROS/Tasks/Task_1/count_ws)
-  * write, publisher and subscriber to start count from 100 until the user uses CTRL C, (.py,     .cpp).
+  * publisher and subscriber to start count from 100 until the user uses CTRL C.
   * ![](4.ROS/Tasks/Task_1/count_ws/rosgraph.png)
 * [nomeer_ws](4.ROS/Tasks/Task_1/nomeer_ws)
-  * write, publisher and subscriber using String msg("I am Learning Robotics and ROS") until the user uses CTRL C, (.py, .cpp).
+  * publisher and subscriber using String msg("I am Learning Robotics and ROS") until the user uses CTRL C.
   * ![](4.ROS/Tasks/Task_1/nomeer_ws/rosgraph.png)
   
-
 ---
 ### Task2
+* [nomeer_robot_ws](4.ROS/Tasks/Task_2/nomeer_robot_ws)
+  * move_pkg with robot_py.launch file.
+  * publish data to the /cmd_vel topic.
+  * Modify the code in order to print the odometry of the robot.
+  * Python file that creates a publisher that indicates the age of the robot
+  
+    ![](4.ROS/Tasks/Task_2/nomeer_robot_ws/rosgraph.png)
 
 ---
 ### Task3
