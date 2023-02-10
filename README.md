@@ -77,7 +77,7 @@
 ### Task3
 * [control_nomeer_roboot_ws](4.ROS/Tasks/Task_3/control_nomeer_roboot_ws)
   * Users can input a linear (x) velocity in the range [2,6] (floating point allowed)
-  * Users can input an angular (z) velocity [1,3] (floating point allowed)
+  * Users can input an angular (z) velocity [2,6] (floating point allowed)
   * another node to publish data to the /cmd_vel topic
   
   ![](4.ROS/Tasks/Task_3/control_nomeer_roboot_ws/rosgraph.png)
