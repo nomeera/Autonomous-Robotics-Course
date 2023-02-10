@@ -47,7 +47,8 @@
     - Navigation
 </details>
 
-<img src="https://cdn-icons-png.flaticon.com/512/2814/2814666.png" width="30">
+<img src="https://cdn-icons-png.flaticon.com/512/2814/2814666.png" width="30" />
+
 ## ROS Tasks
 
 > Note: All codes written in C++ and Python
