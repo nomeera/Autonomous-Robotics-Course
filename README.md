@@ -9,7 +9,9 @@
 
 <details>
   <summary>click to show course content</summary>
+  
     ### Course Content
+  
     - Introduction to Linux, Terminal, and Shell
     - Python Programming
     - C++ Programming
