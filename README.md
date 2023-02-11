@@ -55,7 +55,7 @@
 
 > Note: All codes written in C++ and Python
 
-### Task1
+### Task 1
 * [count_ws](4.ROS/Tasks/Task_1/count_ws)
   * publisher and subscriber to start count from 100 until the user uses CTRL C.
   * ![](4.ROS/Tasks/Task_1/count_ws/rosgraph.png)
@@ -64,7 +64,7 @@
   * ![](4.ROS/Tasks/Task_1/nomeer_ws/rosgraph.png)
   
 ---
-### Task2
+### Task 2
 * [nomeer_robot_ws](4.ROS/Tasks/Task_2/nomeer_robot_ws)
   * move_pkg with robot_py.launch file.
   * publish data to the /cmd_vel topic.
@@ -74,7 +74,7 @@
     ![](4.ROS/Tasks/Task_2/nomeer_robot_ws/rosgraph.png)
 
 ---
-### Task3
+### Task 3
 * [control_nomeer_roboot_ws](4.ROS/Tasks/Task_3/control_nomeer_roboot_ws)
   * Users can input a linear (x) velocity in the range [2,6] (floating point allowed)
   * Users can input an angular (z) velocity [2,6] (floating point allowed)
@@ -83,7 +83,7 @@
   ![](4.ROS/Tasks/Task_3/control_nomeer_roboot_ws/rosgraph.png)
 
 ---
-### Task4
+### Task 4
 * [nomeer_ws](4.ROS/Tasks/Task_4/nomeer_ws)
   * publisher and subscriber to count from 0 until the user uses CTRL C.
   * message nodes that publish Complex(real, imaginary) numbers.
@@ -92,11 +92,13 @@
   ![](4.ROS/Tasks/Task_4/nomeer_ws/rosgraph.png)
   
 ---
-### Task5
+### Task 5
 * [gazebo](/4.ROS/Tasks/Task_5/src)
   * first gazebo task
   * create Model(Robot) & Environment
   * Adding the Environment + Model  inside a World
   
+---
+### Task 6
 
 
