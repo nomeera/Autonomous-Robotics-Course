@@ -87,7 +87,7 @@
 * [nomeer_ws](4.ROS/Tasks/Task_4/nomeer_ws)
   * publisher and subscriber to count from 0 until the user uses CTRL C.
   * message nodes that publish Complex(real, imaginary) numbers.
-  * a service that can count the number of words, ex: i love you >> 3, you are the best >> 4.![](https://img.shields.io/badge/-help%20wanted-critical.svg)
+  * a service that can count the number of words, ex: i love you >> 3, you are the best >> 4.[![](https://img.shields.io/badge/-help%20wanted-critical.svg)](https://github.com/nomeera/Autonomous-Robotics-Course/tree/master/4.ROS/Tasks/Task_4/nomeer_ws/src/n_words_pkg)
 
   ![](4.ROS/Tasks/Task_4/nomeer_ws/rosgraph.png)
   
