@@ -98,6 +98,8 @@
   * create Model(Robot) & Environment
   * Adding the Environment + Model  inside a World
   
+  <img src="4.ROS/Tasks/Task_5/src/nomeer_gazebo_pkg/default_gzclient_camera(1)-2023-02-11T20_32_22.012985.jpg" width="600">
+  
 ---
 ### Task 6
 
