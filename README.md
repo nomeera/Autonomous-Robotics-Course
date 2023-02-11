@@ -118,5 +118,7 @@
       - the robot should have a tour at least 1m height attached with last edge of robot.
       - 1 Depth Camera(Xbox camera, RealSense Camera,..), the camera should be attached to the tour and at least at height 1m of robot.
       - Lidar should be at the center of robot.
+  
+  ![]()
 
 
