@@ -102,5 +102,21 @@
   
 ---
 ### Task 6
+* [URDF]()
+  * Tasks-1:
+    - Create custom robot using URDF/XACRO the robot should have:
+      - 4 driver wheels
+      - Normal Camera, the camera should be in front of robot.
+      - Lidar should be at the center of robot.
+  
+  ![]()
+  
+  * Tasks-2:
+    - Create custom robot using URDF/XACRO the robot should have:
+      - 4 driver wheels OR 2 driver wheels and 1 driven free wheel(Castor wheel)
+      - Normal Camera, the camera should be in front of robot.
+      - the robot should have a tour at least 1m height attached with last edge of robot.
+      - 1 Depth Camera(Xbox camera, RealSense Camera,..), the camera should be attached to the tour and at least at height 1m of robot.
+      - Lidar should be at the center of robot.
 
 
