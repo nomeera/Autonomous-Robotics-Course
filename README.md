@@ -92,5 +92,10 @@
   ![](4.ROS/Tasks/Task_4/nomeer_ws/rosgraph.png)
   
 ---
+### Task5
+* gazebo
+  * create Model(Robot) & Environment
+  * Adding the Environment + Model  inside a World
+  * select the coffee Environment and try to add your robot(Model) inside the coffee.
 
 
