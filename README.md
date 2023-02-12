@@ -102,14 +102,15 @@
   
 ---
 ### Task 6
-* [URDF]()
-  * [Tasks-1:]()
+* [URDF](/4.ROS/Tasks/Task_6/src/nomeer_xacro_pkg/urdf/)
+  * [Tasks-1:](/4.ROS/Tasks/Task_6/src/nomeer_xacro_pkg/urdf/Robot_1/nomeer1_robot.xacro)
     - Create custom robot using URDF/XACRO the robot should have:
-      - 4 driver wheels
+      - 4 driver wheels 
       - Normal Camera, the camera should be in front of robot.
       - Lidar should be at the center of robot.
-  
-  ![]()
+      
+        ![](/4.ROS/Tasks/Task_6/src/nomeer_xacro_pkg/urdf/Robot_1/nomeer1_robot.jpg)
+
   
   * [Tasks-2:]()
     - Create custom robot using URDF/XACRO the robot should have:
