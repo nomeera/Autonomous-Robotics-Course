@@ -53,7 +53,7 @@
 
 ## ROS Tasks
 
-> Note: All codes written in C++ and Python
+> Note: All nodes written in C++ and Python also.
 
 ### Task 1
 * [count_ws](4.ROS/Tasks/Task_1/count_ws)
