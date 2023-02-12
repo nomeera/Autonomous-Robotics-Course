@@ -109,17 +109,12 @@
       - Normal Camera, the camera should be in front of robot.
       - Lidar should be at the center of robot.
       
-        ![](/4.ROS/Tasks/Task_6/src/nomeer_xacro_pkg/urdf/Robot_1/nomeer1_robot.jpg)
-
-  
-  * [Tasks-2:]()
+        ![](/4.ROS/Tasks/Task_6/src/nomeer_xacro_pkg/urdf/Robot_1/urdf_task1.jpeg)
+        ---
+  * Tasks-2: [![WIP](https://img.shields.io/badge/Status-Work%20In%20Progress-yellow)](https://img.shields.io/badge/Status-Work%20In%20Progress-yellow)
     - Create custom robot using URDF/XACRO the robot should have:
       - 4 driver wheels OR 2 driver wheels and 1 driven free wheel(Castor wheel)
       - Normal Camera, the camera should be in front of robot.
       - the robot should have a tour at least 1m height attached with last edge of robot.
       - 1 Depth Camera(Xbox camera, RealSense Camera,..), the camera should be attached to the tour and at least at height 1m of robot.
       - Lidar should be at the center of robot.
-  
-  ![]()
-
-
