@@ -109,7 +109,7 @@
       - Normal Camera, the camera should be in front of robot.
       - Lidar should be at the center of robot.
       
-        ![](/4.ROS/Tasks/Task_6/src/nomeer_xacro_pkg/urdf/Robot_1/nomeer1_robot.jpg)
+        ![](/4.ROS/Tasks/Task_6/src/nomeer_xacro_pkg/urdf/Robot_1/urdf_task1.jpeg)
 
   
   * [Tasks-2:]()
