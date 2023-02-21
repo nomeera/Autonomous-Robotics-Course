@@ -124,7 +124,7 @@
 ---
 ### Task 7
 * [Gazebo Plugin](/4.ROS/Tasks/Task_7/src)
-  * Add Gazebo Plugin (lidar, camera, diff) for Task 6.2 Robot.
+  * Add Gazebo Plugin (lidar, camera, diff) for [Task 6.2](/4.ROS/Tasks/Task_7/src/robot_description/urdf/robot.xacro) Robot. ([gazebo.xacro](4.ROS/Tasks/Task_7/src/robot_description/urdf/gazebo.xacro))
   * download .stl or .dae file for the lidar and added to mesh folder also added to your URDF
   * create your world in gazebo
-  * launching the robot in your world
+  * launching the robot in your world ([robot.launch](4.ROS/Tasks/Task_7/src/robot_gazebo/launch/robot.launch))
