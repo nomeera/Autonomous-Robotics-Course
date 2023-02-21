@@ -103,7 +103,7 @@
 ---
 ### Task 6
 * [URDF](/4.ROS/Tasks/Task_6/src/nomeer_xacro_pkg/urdf/)
-  * [Tasks-1:](/4.ROS/Tasks/Task_6/src/nomeer_xacro_pkg/urdf/Robot_1/nomeer1_robot.xacro)
+  * [Tasks 6.1:](/4.ROS/Tasks/Task_6/src/nomeer_xacro_pkg/urdf/Robot_1/nomeer1_robot.xacro)
     - Create custom robot using URDF/XACRO the robot should have:
       - 4 driver wheels 
       - Normal Camera, the camera should be in front of robot.
@@ -111,7 +111,7 @@
       
         ![](/4.ROS/Tasks/Task_6/src/nomeer_xacro_pkg/urdf/Robot_1/urdf_task1.jpeg)
         ---
-  * [Tasks-2:](/4.ROS/Tasks/Task_7/src/robot_description/urdf/robot.xacro)
+  * [Tasks 6.2:](/4.ROS/Tasks/Task_7/src/robot_description/urdf/robot.xacro)
     - Create custom robot using URDF/XACRO the robot should have:
       - 4 driver wheels OR 2 driver wheels and 1 driven free wheel(Castor wheel)
       - Normal Camera, the camera should be in front of robot.
@@ -124,7 +124,7 @@
 ---
 ### Task 7
 * [Gazebo Plugin](/4.ROS/Tasks/Task_7/src)
-  * Add Gazebo Plugin (lidar, camera, diff) for Task_6.2 Robot.
+  * Add Gazebo Plugin (lidar, camera, diff) for Task 6.2 Robot.
   * download .stl or .dae file for the lidar and added to mesh folder also added to your URDF
   * create your world in gazebo
   * launching the robot in your world
