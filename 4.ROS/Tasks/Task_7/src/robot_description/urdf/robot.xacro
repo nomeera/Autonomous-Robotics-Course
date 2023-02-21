@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="autonomous_robot_1">
+
+    <!--include robot parts-->
+    <xacro:include filename="./base.xacro"/>
+    <xacro:include filename="./body.xacro"/>
+
+    <xacro:include filename="./wheel.xacro"/>
+    <xacro:include filename="./caster.xacro"/>
+
+    <xacro:include filename="./lidar.xacro"/>
+    <xacro:include filename="./camera.xacro"/>
+
+
+    <!--include robot features-->
+    <xacro:include filename="./inertial_macros.xacro"/>
+    <xacro:include filename="./material.xacro"/>
+
+    <!--create link objects-->
+    <xacro:base_link name="base_link"/>
+    <xacro:body_link name="body_link"/>
+
+    <xacro:wheel_link name="wheel1_link"/>
+    <xacro:wheel_link name="wheel2_link"/>
+    <xacro:caster_link name="caster_link"/>
+
+    <xacro:lidar_link name="lidar_link"/>
+    <xacro:camera_link name="camera_link"/>
+
+
+    <!--create joints with base-->
+
+    <!--body base joint-->
+    <joint name="joint_name" type="fixed">
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="body_link"/>
+    </joint>
+
+    <!--wheel1 joint-->
+    <joint name="wheel1_base_joint" type="continuous">
+        <origin xyz="0.3 1.1 0.0" rpy="0.0 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="wheel1_link"/>
+        <axis xyz="0.0 0.0 0.0"/>
+    </joint>
+
+    <!--wheel2 joint-->
+    <joint name="wheel2_base_joint" type="continuous">
+        <origin xyz="0.3 -1.1 0.0" rpy="0.0 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="wheel2_link"/>
+        <axis xyz="0.0 0.0 0.0"/>
+    </joint>
+
+    <!--caster joint-->
+    <joint name="caster_base_joint" type="fixed">
+        <origin xyz="-0.8 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="caster_link"/>
+    </joint>
+
+    <!--lidar joint-->
+    <joint name="lidar_base_joint" type="fixed">
+        <origin xyz="0.0 0.0 0.45" rpy="0.0 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="lidar_link"/>
+    </joint>
+
+    <!--camera joint-->
+    <joint name="camera_base_joint" type="fixed">
+        <origin xyz="0.8 0.0 2.0" rpy="0.0 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="camera_link"/>
+    </joint>
+
+
+</robot>
