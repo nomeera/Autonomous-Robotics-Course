@@ -120,3 +120,6 @@
       - Lidar should be at the center of robot.
       
         ![](/4.ROS/Tasks/Task_7/src/robot_description/urdf/robot.jpeg)
+        
+---
+### Task 7
