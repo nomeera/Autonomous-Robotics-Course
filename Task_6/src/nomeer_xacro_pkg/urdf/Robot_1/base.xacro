@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot_name">
+
+    <xacro:include filename="../guiding files/inertial_macros.xacro"/>
+    <xacro:include filename="../Robot Accessories/material.xacro"/>
+
+    <link name="base_link">
+
+        <visual name="base_visual">
+            <origin xyz="0.0 0.0 0.4" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="2.0 1.0 0.35"/>
+            </geometry>
+            <material name="white"/>
+        </visual>
+
+        <collision name="base_collison">
+            <origin xyz="0.0 0.0 0.4" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="4.0 2.0 1.0"/>
+            </geometry>
+        </collision>
+
+        <xacro:inertial_box mass="30" x="4.0" y="2.0" z="1.0">
+            <origin xyz="0.0 0 0.4" rpy="0 0 0"/>
+        </xacro:inertial_box>
+    </link>
+
+
+
+
+</robot>

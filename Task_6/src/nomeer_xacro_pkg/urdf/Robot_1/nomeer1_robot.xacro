@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="nomeer1_robot">
+
+    <!--include robot parts-->
+    <!--base_link-->
+    <xacro:include filename="base.xacro"/>
+    <xacro:include filename="../Robot Accessories/camera.xacro"/>
+    <xacro:include filename="../Robot Accessories/lidar.xacro"/>
+    <xacro:include filename="../Robot Accessories/wheel.xacro"/>
+
+    <!--create link objects-->
+    <xacro:camera_link name="camera"/>
+    <xacro:lidar_link name="lidar"/>
+    <xacro:wheel_link name="wheel1"/>
+    <xacro:wheel_link name="wheel2"/>
+    <xacro:wheel_link name="wheel3"/>
+    <xacro:wheel_link name="wheel4"/>
+
+    <!--create joints-->
+    <!--camera joint-->
+    <joint name="base_camera" type="fixed">
+        <parent link="base_link"/>
+        <child link="camera"/>
+        <origin xyz="1.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </joint>
+
+    <!--lidar joint-->
+    <joint name="base_lidar" type="fixed">
+        <parent link="base_link"/>
+        <child link="lidar"/>
+        <origin xyz="0.0 0.0 0.225" rpy="0.0 0.0 0.0"/>
+    </joint>
+
+    <!--wheel1 joint-->
+    <joint name="base_wheel1" type="continuous">
+        <parent link="base_link"/>
+        <child link="wheel1"/>
+        <origin xyz="0.6 0.6 0.0" rpy="0.0 0.0 0.0"/>
+        <axis xyz="0.0 1.0 0.0"/>
+    </joint>
+
+    <!--wheel2 joint-->
+    <joint name="base_wheel2" type="continuous">
+        <parent link="base_link"/>
+        <child link="wheel2"/>
+        <origin xyz="-0.6 0.6 0.0" rpy="0.0 0.0 0.0"/>
+        <axis xyz="0.0 1.0 0.0"/>
+    </joint>
+
+    <!--wheel3 joint-->
+    <joint name="base_wheel3" type="continuous">
+        <parent link="base_link"/>
+        <child link="wheel3"/>
+        <origin xyz="0.6 -0.6 0.0" rpy="0.0 0.0 0.0"/>
+        <axis xyz="0.0 -1.0 0.0"/>
+    </joint>
+
+    <!--wheel4 joint-->
+    <joint name="base_wheel4" type="continuous">
+        <parent link="base_link"/>
+        <child link="wheel4"/>
+        <origin xyz="-0.6 -0.6 0.0" rpy="0.0 0.0 0.0"/>
+        <axis xyz="0.0 -1.0 0.0"/>
+    </joint>
+
+
+
+</robot>

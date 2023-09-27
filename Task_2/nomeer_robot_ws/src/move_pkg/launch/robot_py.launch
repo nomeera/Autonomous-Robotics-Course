@@ -1,0 +1,6 @@
+<launch>
+  <node name="pub_twist_py" pkg="move_pkg" type="pub_twist.py" output="screen" />
+  <node name="pub_age_py" pkg="move_pkg" type="pub_age.py" />
+  <node name="sub_age_py" pkg="move_pkg" type="sub_age.py" output="screen" />
+  <node name="sub_odom_py" pkg="move_pkg" type="sub_odom.py" />
+</launch>
